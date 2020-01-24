@@ -256,7 +256,7 @@ static Quadrant GetQuadrant(Point point) => point switch
 };
 ```
 
-Das Ausschussmuster im vorherigen Switch stimmt überein, wenn entweder `x` oder `y` 0 ist, jedoch nicht beide. Ein switch-Ausdruck muss entweder einen Wert erzeugen oder eine Ausnahme auslösen. Wenn keiner der Fälle übereinstimmt, löst der switch-Ausdruck eine Ausnahme aus. Der Compiler erzeugt für Sie eine Warnung, wenn Sie nicht alle möglichen Fälle in Ihrem Switch-Ausdruck abdecken.
+Das Ausschlussmuster im vorherigen Switch stimmt überein, wenn entweder `x` oder `y` 0 ist, jedoch nicht beide. Ein switch-Ausdruck muss entweder einen Wert erzeugen oder eine Ausnahme auslösen. Wenn keiner der Fälle übereinstimmt, löst der switch-Ausdruck eine Ausnahme aus. Der Compiler erzeugt für Sie eine Warnung, wenn Sie nicht alle möglichen Fälle in Ihrem Switch-Ausdruck abdecken.
 
 In diesem [erweiterten Tutorial zum Musterabgleich](../tutorials/pattern-matching.md) erhalten Sie weitere Informationen zu Musterabgleichverfahren.
 
